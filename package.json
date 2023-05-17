@@ -1,0 +1,36 @@
+{
+  "name": "uxpin-tech-onboarding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check-types": "npx tsc --noEmit",
+    "lint": "npx eslint 'src/**/*.{js,jsx,ts,tsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxpin-merge/uxpin-tech-onboarding.git"
+  },
+  "author": "Evan Trujillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uxpin-merge/uxpin-tech-onboarding/issues"
+  },
+  "homepage": "https://github.com/uxpin-merge/uxpin-tech-onboarding#readme",
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "@uxpin/merge-cli": "^3.0.2",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.8",
+    "react": "^18.2.0",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.1"
+  }
+}
