@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "check-types": "npx tsc --noEmit",
-    "lint": "npx eslint 'src/**/*.{js,jsx,ts,tsx}'"
+    "lint": "npx eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "prettier": "npx prettier --check src"
   },
   "repository": {
     "type": "git",
