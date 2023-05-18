@@ -13,15 +13,18 @@
       "isolatedModules": true,
       "noEmit": false,
       "jsx": "react-jsx",
-      "rootDir": "src/components/typescript",
+      "rootDir": "src/components",
       "outDir": "dist"
     },
     "exclude": [
+      "dist",
       "node_modules",
       "dist",
-      ".uxpin-merge"
+      ".uxpin-merge",
+      "src/components/javascript"
     ],
     "include": [
-      "src/components/typescript"
+      "src/components/typescript",
+      "src/components/UXPinWrapper"
     ]
 }

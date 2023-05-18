@@ -2,11 +2,11 @@
   "name": "uxpin-tech-onboarding",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "check-types": "npx tsc --noEmit",
     "lint": "npx eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "prettier": "npx prettier --check src"
+    "prettier": "npx prettier --check src",
+    "uxpin": "npx uxpin-merge --disable-tunneling"
   },
   "repository": {
     "type": "git",
@@ -19,18 +19,25 @@
   },
   "homepage": "https://github.com/uxpin-merge/uxpin-tech-onboarding#readme",
   "dependencies": {
+    "@babel/preset-typescript": "^7.21.5",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.0",
     "@typescript-eslint/eslint-plugin": "^5.59.6",
     "@typescript-eslint/parser": "^5.59.6",
     "@uxpin/merge-cli": "^3.0.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
     "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "prettier": "^2.8.8",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
     "typescript": "^5.0.4",
     "webpack": "^5.82.1"
   }
