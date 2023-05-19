@@ -17,7 +17,15 @@ module.exports = {
       },
       {
         name: 'Typescript',
-        include: ['src/components/typescript/ButtonTS/ButtonTS.tsx'],
+        include: [
+          'src/components/typescript/ButtonTS/ButtonTS.tsx',
+          'src/components/typescript/CardActionAreaTS/CardActionAreaTS.tsx',
+          'src/components/typescript/CardActionsTS/CardActionsTS.tsx',
+          'src/components/typescript/CardContentTS/CardContentTS.tsx',
+          'src/components/typescript/CardHeaderTS/CardHeaderTS.tsx',
+          'src/components/typescript/CardTS/CardTS.tsx',
+          'src/components/typescript/CardMediaTS/CardMediaTS.tsx',
+        ],
       },
     ],
     wrapper: 'src/components/UXPinWrapper/UXPinWrapper.tsx',
