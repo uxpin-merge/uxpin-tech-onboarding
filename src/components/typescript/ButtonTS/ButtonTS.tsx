@@ -7,6 +7,8 @@ interface UXPinButtonProps extends ButtonProps {
 
 /**
  * @uxpindocurl https://mui.com/components/buttons/#main-content
+ * @uxpinwrappers
+ * SkipContainerWrapper, nonResizableWrapper
  */
 function ButtonTS(props: UXPinButtonProps) {
   const { uxpinRef, children, ...moreProps } = props;
