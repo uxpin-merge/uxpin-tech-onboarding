@@ -2,11 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Icon from '@mui/material/Icon';
 
-// let icons = document.createElement('link');
-// icons.setAttribute('href', 'https://fonts.googleapis.com/icon?family=Material+Icons');
-// icons.setAttribute('rel', 'stylesheet');
-// document.head.appendChild(icons);
-
 /**
  * @uxpindocurl https://mui.com/api/icon/
  */

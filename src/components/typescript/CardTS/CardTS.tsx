@@ -24,9 +24,9 @@ interface UXPinCardProps extends CardProps {
 /**
  * @uxpindocurl https://mui.com/api/card/
  */
-function CardJS(props: UXPinCardProps) {
+function CardTS(props: UXPinCardProps) {
   const { children, ...moreProps } = props;
   return <Card {...moreProps}>{children}</Card>;
 }
 
-export default CardJS;
+export default CardTS;

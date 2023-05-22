@@ -1,7 +1,7 @@
 import React from 'react';
 import CardActionAreaTS from '../CardActionAreaTS';
-import CardContentTS from '../../CardContentJS/CardContentTS';
-import TypographyTS from '../../TypographyJS/TypographyTS';
+import CardContentTS from '../../CardContentTS/CardContentTS';
+import TypographyTS from '../../TypographyTS/TypographyTS';
 
 export default (
   <CardActionAreaTS uxpId="Card-Action-Area-1">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { CardHeader, CardHeaderProps } from '@mui/material';
 import Avatar from '@mui/material/Avatar';
-import IconButtonTS from '../IconButtonTS/IconButtonTS';
+import IconButtonTS from '@mui/material/IconButton';
 
 interface UXPinCardHeaderProps extends CardHeaderProps {
   /**
