@@ -10,6 +10,7 @@ type UXPinDialogProps = Omit<DialogProps, 'onClose' | 'TransitionProps' | 'disab
 
 function DialogTS(props: UXPinDialogProps) {
   const [open, setOpen] = React.useState(props.open);
+  const { children } = props;
 
   React.useEffect(() => setOpen(props.open), [props]);
 
@@ -22,7 +23,7 @@ function DialogTS(props: UXPinDialogProps) {
       disablePortal={true}
       style={{ minWidth: '300px', minHeight: '300px', width: '100%', height: '100%' }}
     >
-      {props.children}
+      {children}
     </Dialog>
   );
 }

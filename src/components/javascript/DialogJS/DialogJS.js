@@ -9,6 +9,7 @@ import DialogM from '@mui/material/Dialog';
 
 function DialogJS(props) {
   const [open, setOpen] = React.useState(props.open);
+  const { children } = props;
 
   React.useEffect(() => setOpen(props.open), [props]);
 
@@ -21,7 +22,7 @@ function DialogJS(props) {
       style={{ minWidth: '300px', minHeight: '300px', width: '100%', height: '100%' }}
       {...props}
     >
-      {props.children}
+      {children}
     </DialogM>
   );
 }
