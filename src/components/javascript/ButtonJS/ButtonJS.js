@@ -4,16 +4,10 @@ import Button from '@mui/material/Button';
 
 /**
  * @uxpindocurl https://mui.com/components/buttons/#main-content
- * @uxpinwrappers
- * SkipContainerWrapper, nonResizableWrapper
  */
 function ButtonJS(props) {
-  const { uxpinRef, children, ...moreProps } = props;
-  return (
-    <Button {...moreProps} ref={uxpinRef}>
-      {children}
-    </Button>
-  );
+  const { children, ...moreProps } = props;
+  return <Button {...moreProps}>{children}</Button>;
 }
 
 ButtonJS.propTypes = {
