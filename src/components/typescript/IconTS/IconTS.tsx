@@ -6,14 +6,14 @@ interface UXPinIconProps extends IconProps {
    * The icon to display.
    * Use the name of the icon from https://material.io/tools/icons.
    * @uxpinpropname  Icon
-   */
-  children: 'add' | 'camera' | 'face' | 'lock' | 'photo';
+   **/
+  children: React.ReactNode;
 
   /**
    * The fontSize applied to the icon. Defaults to 24px, but can be configure to inherit font size.
    * @uxpinpropname Size
    */
-  fontSize: 'large' | 'medium' | 'small' | 'inherit';
+  fontSize?: 'large' | 'medium' | 'small' | 'inherit';
 }
 
 /**
