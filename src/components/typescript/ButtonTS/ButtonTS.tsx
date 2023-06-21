@@ -11,12 +11,8 @@ interface UXPinButtonProps extends ButtonProps {
  * SkipContainerWrapper, nonResizableWrapper
  */
 function ButtonTS(props: UXPinButtonProps) {
-  const { uxpinRef, children, ...moreProps } = props;
-  return (
-    <Button {...moreProps} ref={uxpinRef}>
-      {children}
-    </Button>
-  );
+  const { uxpinRef, ...moreProps } = props;
+  return <Button {...moreProps} ref={uxpinRef} />;
 }
 
 export default ButtonTS;
