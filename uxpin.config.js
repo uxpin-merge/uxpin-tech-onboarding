@@ -19,6 +19,7 @@ module.exports = {
           'src/components/javascript/DialogContentJS/DialogContentJS.js',
           'src/components/javascript/DialogContentTextJS/DialogContentTextJS.js',
           'src/components/javascript/DialogTitleJS/DialogTitleJS.js',
+          'src/components/javascript/ToggleButtonJS/ToggleButtonJS.js',
         ],
       },
       {
@@ -39,6 +40,7 @@ module.exports = {
           'src/components/typescript/DialogContentTS/DialogContentTS.tsx',
           'src/components/typescript/DialogContentTextTS/DialogContentTextTS.tsx',
           'src/components/typescript/DialogTitleTS/DialogTitleTS.tsx',
+          'src/components/typescript/ToggleButtonTS/ToggleButtonTS.tsx',
         ],
       },
     ],
