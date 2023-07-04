@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ToggleButtonM, { ToggleButtonProps } from '@mui/material/ToggleButton';
 import { ToggleButtonGroup } from '@mui/material';
-import IconTS from '../IconTS/IconTS';
+import Icon from '@mui/material/Icon';
 
 interface UXPinToggleButtonProps extends ToggleButtonProps {
   /**
@@ -19,13 +19,13 @@ function ToggleButtonTS(props: UXPinToggleButtonProps) {
   return (
     <ToggleButtonGroup>
       <ToggleButtonM {...props}>
-        <IconTS>format_align_left</IconTS>
+        <Icon>format_align_left</Icon>
       </ToggleButtonM>
       <ToggleButtonM {...props}>
-        <IconTS>format_align_center</IconTS>
+        <Icon>format_align_center</Icon>
       </ToggleButtonM>
       <ToggleButtonM {...props}>
-        <IconTS>format_align_right</IconTS>
+        <Icon>format_align_right</Icon>
       </ToggleButtonM>
     </ToggleButtonGroup>
   );
