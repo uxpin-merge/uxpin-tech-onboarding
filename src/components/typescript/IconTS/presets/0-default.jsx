@@ -3,6 +3,6 @@ import IconTS from '../IconTS';
 
 export default (
   <IconTS color="action" uxpId="1">
-    home
+    add
   </IconTS>
 );
